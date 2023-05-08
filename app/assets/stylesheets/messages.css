@@ -9,17 +9,46 @@
   background-color: #253141;
 }
 
+
+/*サイドバー上部*/
 .side-top{
   height: 100px;
   padding: 0px 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.side-name a{
+font-size: 16px;
+color: #fafafa;
+text-decoration: none;
+}
+
+.side-creat a{
+  border: 1px solid lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/*サイドバー下部*/
 .side-bottom{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0px 20px;
+  overflow: scroll;
 }
 
+.side-room{
+  padding: 20px 0 40px 0;
+}
+
+.room-name{
+  color:white
+}
 
 /*メインチャット関係*/
 
