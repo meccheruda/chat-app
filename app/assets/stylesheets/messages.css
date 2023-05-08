@@ -11,11 +11,13 @@
 
 .side-top{
   height: 100px;
+  padding: 0px 20px;
 }
 
 .side-bottom{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
+  padding: 0px 20px;
 }
 
 
@@ -28,14 +30,17 @@
 
 .main-top{
   height: 100px;
+  padding:  0px 40px;
 }
 
 .main-center{
 height: calc(100vh - 100px - 90px);
 background-color: #fafafa;
+padding: 46px 40px 0;
 }
 
 .main-bottom{
   height: 90px;
   background-color: #dddddd;
+  padding: 20px 40px;
 }
