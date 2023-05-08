@@ -85,10 +85,37 @@ text-decoration: none;
 }
 
 
+/*真ん中部分*/
 .main-center{
 height: calc(100vh - 100px - 90px);
 background-color: #fafafa;
 padding: 46px 40px 0;
+overflow: scroll;
+}
+
+.chat-box{
+  margin-top: 10px;
+}
+
+.name-time{
+  display: flex;
+}
+
+.chat-name{
+  font-size: 16px;
+  color: #434A54;
+}
+
+.chat-time{
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+
+.chat-text{
+font-size: 14px;
+color: #434A54;
+margin: 10px 0 40px 0;
 }
 
 /*メインのフッター部分*/
@@ -96,4 +123,43 @@ padding: 46px 40px 0;
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+  display: flex;
+}
+
+/*フォーム部分*/
+.contact-form{
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.message-form{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.send{
+  height: 50px;
+  padding: 0 20px;
+  background-color: #38aef0;
+  color: white;
+  font-size: 16px;
+  margin-left: 15px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
