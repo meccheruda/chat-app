@@ -50,6 +50,7 @@ text-decoration: none;
   color:white
 }
 
+/*ここでサイドバー関連終わり*/
 /*メインチャット関係*/
 
 .main-chat{
@@ -57,10 +58,32 @@ text-decoration: none;
   background-color: #ffffff;
 }
 
+
+/*メインのヘッダー部分*/
 .main-top{
   height: 100px;
   padding:  0px 40px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.main-title{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.chat-exit{
+  margin-top: 40px;
+}
+
+.chat-exit a{
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
+  text-decoration: none;
+}
+
 
 .main-center{
 height: calc(100vh - 100px - 90px);
@@ -68,6 +91,7 @@ background-color: #fafafa;
 padding: 46px 40px 0;
 }
 
+/*メインのフッター部分*/
 .main-bottom{
   height: 90px;
   background-color: #dddddd;
