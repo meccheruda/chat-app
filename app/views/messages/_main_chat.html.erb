@@ -12,28 +12,7 @@
   </div>
   
   <div class="main-center">
-    <div class="chat-box">
-      <div class="name-time">
-        <div class="chat-name">
-        トム
-        </div>
-        <div class="chat-time">
-        2021/05/10 11:59:11
-        </div>
-      </div>
-      <div class="chat-text">おはよう</div>
-    </div>
-    <div class="chat-box">
-      <div class="name-time">
-        <div class="chat-name">
-        シム
-        </div>
-        <div class="chat-time">
-        2021/05/10 11:59:16
-        </div>
-      </div>
-      <div class="chat-text">こんばんは</div>
-    </div>
+    <%= render partial: 'message', collection: @messages %>
   </div>
   
  <%= form_with model: [@room, @message], class: 'main-bottom', local: true do |f| %>
